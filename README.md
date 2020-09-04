@@ -26,7 +26,7 @@ STEP3 When you select Sector radio button,dropdown texts of sector appear in gra
 STEP4 When you select Pestle radio button,dropdown texts of pestle appear in graph</br>
 STEP5 When you select Country radio button,dropdown texts of country appear in graph similar with rest too</br>
 
-### About Project
+### `About Project`
 ![](/images/WhatToDo.PNG)
 
 #### `How to run`
