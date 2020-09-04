@@ -1,0 +1,50 @@
+div.dotted {
+  border-style: dashed;
+  border-radius: 5px;
+  border-width: 3px;
+  text-align: center;
+  border-color: blueviolet;
+  background-color: powderblue;
+  font-size: 130%;
+  font-weight: bold;
+}
+.flex-container {
+  display: flex;
+}
+
+/* .flex-container > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+} */
+
+.flex-container > div {
+  background-color: #f1f1f1;
+  /* padding: 20px; */
+  margin: 10px;
+
+  border: 3px #ccc solid;
+  width: 900px;
+  height: 500px;
+}
+.box-1 {
+  flex: 2;
+  /* order: 1; */
+}
+.box-2 {
+  flex: 1;
+  /* order: 2; */
+}
+
+body {
+  font-family: "Lucida Grande", "Droid Sans", Arial, Helvetica, sans-serif;
+}
+
+/* .div1 {
+  text-align: center;
+  display: block;
+  padding-bottom: 20px;
+  padding-top: 5px; 
+  padding: 20px;
+} */

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="Style.css" />
+    <script src="spin.min.js"></script>
+    <script src="d3.layout.cloud.js"></script>
+    <script src="d3.min.js"></script>
+
+    <title>Word Cloud</title>
+  </head>
+  <body>
+    <section id="section"></section>
+    <div
+      id="chart"
+      style="
+        width: 99%;
+        height: 97%;
+        position: absolute;
+        background-color: orange;
+      "
+    ></div>
+
+    <form>
+      <div class="flex-container">
+        <div class="box-1">
+          <svg id="demo1"></svg>
+        </div>
+
+        <div class="box-2">
+          <h1 style="text-align: center; color: #a6a6a6">Cloud Chart</h1>
+          <h5 style="text-align: center">
+            Show and Filter with respect to Topic
+          </h5>
+
+          <br />
+
+          <input
+            type="radio"
+            checked
+            name="map"
+            onClick="getTopicList(topicValue)"
+          />
+          <label for="topic">Topic</label>
+
+          <select autofocus id="topic" onChange="fillRestList()"></select>
+          <br />
+          <br />
+          <br />
+
+          <input type="radio" name="map" onClick="getSectorList(topicValue)" />
+          <label for="sector">Sector</label>
+
+          <select autofocus id="sector"></select>
+          <br />
+          <br />
+          <br />
+          <input type="radio" name="map" onClick="getPestleList(topicValue)" />
+          <label for="pestle">Pestle</label>
+
+          <select autofocus id="pestle"></select>
+          <br />
+          <br />
+          <br />
+
+          <input type="radio" name="map" onClick="getCountryList(topicValue)" />
+          <label for="country">Country</label>
+
+          <select autofocus id="country"></select>
+          <br />
+          <br />
+          <br />
+
+          <input type="radio" name="map" onClick="getRegionList(topicValue)" />
+          <label for="region">Region</label>
+          <select autofocus id="region"></select>
+          <br />
+          <br />
+          <br />
+        </div>
+      </div>
+    </form>
+    <p
+      style="
+        font-family: georgia, garamond, serif;
+        color: grey;
+        font-size: 12px;
+        font-style: italic;
+      "
+    >
+      <b></b>
+    </p>
+    <script src="fetchAPI.js"></script>
+    <script src="mapFormToJson.js"></script>
+    <script src="mapFormToCloud.js"></script>
+  </body>
+</html>
