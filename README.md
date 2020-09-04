@@ -13,6 +13,7 @@ well I have used wordcloud and have used simple js.
 ### `When Pestle is selected`
 ![](/images/selectedPestleDropdownGraph.PNG)
 
+
 ### `When Sector is selected`
 ![](/images/selectedCountryDropdownGraph.PNG)
 
@@ -25,5 +26,8 @@ STEP3 When you select Sector radio button,dropdown texts of sector appear in gra
 STEP4 When you select Pestle radio button,dropdown texts of pestle appear in graph</br>
 STEP5 When you select Country radio button,dropdown texts of country appear in graph similar with rest too</br>
 
-### `How to run`
+### About Project
+![](/images/WhatToDo.PNG)
+
+#### `How to run`
 run html file with the help of live server
