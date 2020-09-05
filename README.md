@@ -4,8 +4,9 @@ Objective of this assignment is to create a data visualization dashboard.Develop
 creative visualization that you like most from the examples of heatmap,radar and wordCloud 
 well I have used wordcloud and have used simple js.
 
+### `Working`
+![](/images/gif.gif)
 
-![](/images/working.gif)
 ### `When Topic is selected`
 ![](/images/hoverUI.PNG)
 ![](/images/dropdownUI.png)
